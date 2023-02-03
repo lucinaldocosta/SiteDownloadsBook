@@ -1,0 +1,15 @@
+.highlights_title{
+    text-align: start;
+    color: #4d4d4d;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.highlights_article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75vw;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}

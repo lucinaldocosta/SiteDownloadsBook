@@ -1,0 +1,19 @@
+.about_article{
+    width: 50%;
+    margin: 4px;
+    border-right: 0.5px solid #555;
+}
+.about_photo{
+    width: 40vw;
+    height: 33.7vh;
+}
+.about_title{
+    text-align: left;
+    margin: 15px;
+    color: #5baf30;
+}
+.about_description{
+    font-size: 16px;
+    text-align: justify;
+    margin: 0 25px;
+}

@@ -1,0 +1,39 @@
+.contact_section{
+    display: flex;
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    overflow: hidden;
+}
+.contact_title{
+    margin-top: 20px;
+}
+form p{
+    text-align: left;
+    margin: 20px 0 10px 100px;
+}
+.contact_article{
+    width: 50%;
+}
+.input_name, .input_email{
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+}
+textarea{
+    resize: none;
+    width: 400px;
+    height: 190px;
+    padding: 10px;
+}
+.contact_button{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #5baf30;
+    border-color: #5baf30;
+    cursor: pointer;
+}

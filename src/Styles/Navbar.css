@@ -1,0 +1,62 @@
+header {
+  width: 100vw;
+  height: 2.2cm;
+  display: flex;
+  flex-direction: column;
+}
+#logo {
+  float: left;
+  background: url(../IMG/sprite.png) no-repeat;
+  background-position: -29px 5px;
+  height: 40px;
+  width: 187px;
+  margin: 2.5px;
+  margin-left: 15px;
+  padding: 4px 8px 4px 0;
+}
+.navbar_section_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_search{
+    margin-right: 90px;
+}
+.navbar_input{
+    border-radius: 5px;
+    width: 7.5cm;
+    height: 1cm;
+    padding: 5px;
+}
+.navbar_button{
+    background-color: rgb(0, 6, 97);
+    color: #fff;
+    border-radius: 5px;
+    border-color: rgb(0, 6, 97);
+    margin-left: 2px;
+    width: 1.8cm;
+    height: 1cm;
+}
+.navbar_section_links{
+    display: flex;
+    justify-content: center;
+    height: 0.9cm;
+    align-items: center;
+    background-color: #5baf30;
+}
+.navbar_links{
+    width: 10cm;
+    display: flex;
+    margin-right: 3cm;
+    justify-content: space-evenly;
+}
+.links{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1px;
+}
+.links:hover{
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
